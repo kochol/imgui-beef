@@ -1,7 +1,0 @@
-FileVersion = 1
-Dependencies = {corlib = "*", imgui-beef = "*"}
-
-[Project]
-Name = "imgui-impl-opengl3"
-TargetType = "BeefLib"
-DefaultNamespace = "imgui_beef"

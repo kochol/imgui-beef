@@ -1,11 +1,12 @@
 FileVersion = 1
+Dependencies = {corlib = "*", corlib = "*"}
 
 [Project]
 Name = "imgui-beef"
 DefaultNamespace = "imgui_beef"
 
 [Configs.Debug.Win64]
-LibPaths = ["$(ProjectDir)/dist/x64/Debug/cimgui.lib"]
+LibPaths = ["$(ProjectDir)../../../../dist/win64/Debug/cari.lib"]
 
 [Configs.Release.Win64]
 LibPaths = ["$(ProjectDir)/dist/x64/Release/cimgui.lib"]
