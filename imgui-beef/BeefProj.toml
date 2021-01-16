@@ -3,6 +3,3 @@ Dependencies = {corlib = "*", corlib = "*", ari_gui = "*"}
 
 [Project]
 Name = "imgui-beef"
-
-[Configs.Release.Win64]
-LibPaths = ["$(ProjectDir)/dist/x64/Release/cimgui.lib"]
